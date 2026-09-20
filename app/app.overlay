@@ -1,0 +1,6 @@
+/* boards/frdm_mcxc444.overlay */
+/ {
+    aliases {
+        app_led= &led0;
+        };
+    };

@@ -47,4 +47,12 @@ endmenu
 
 endif
 
+mainmenu "Application Configuration"
+
+config APP_HEARTBEAT_PERIOD_MS
+    int "Heartbeat period (ms)"
+    default 500
+    range 100 2000
+    help
+      LED heartbeat period in milliseconds.
 endmenu
