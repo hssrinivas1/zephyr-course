@@ -1,0 +1,6 @@
+board:
+  name: our_board_scratch
+  full_name: IOMICO Our Board Scratch
+  vendor: iomico
+  socs:
+    - name: mcxc444

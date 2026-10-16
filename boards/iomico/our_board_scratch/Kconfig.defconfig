@@ -1,0 +1,6 @@
+if BOARD_OUR_BOARD_SCRATCH
+
+config WDT_DISABLE_AT_BOOT
+	default y
+
+endif
